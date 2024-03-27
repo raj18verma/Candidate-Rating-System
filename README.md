@@ -1,4 +1,4 @@
-![jsr2](https://github.com/raj18verma/Job-Filtering-App/blob/main/utilities/resumes/A%20cutting-edge%20%20c5f52a77-b1e6-4bb5-8c97-571ea2b468b2.png)
+![jsr2](https://github.com/raj18verma/Candidate-Rating-System/blob/main/A%20modern%20and%20in%207a1eb0ba-15bf-4887-9982-744b281da50b.png)
 
 # Job Filtering Prototype using Machine Learning
 This repository contains the code and instructions to build a job recommendation system using machine learning. The system is designed to provide personalized job recommendations based on user preferences and historical job data. The data for this project will be scraped from UNSTOP itself (but here we're using GLASSDOOR), and the system can be deployed using a cloud platform.
