@@ -1,7 +1,7 @@
 ![jsr2](https://github.com/raj18verma/Candidate-Rating-System/blob/main/A%20modern%20and%20in%207a1eb0ba-15bf-4887-9982-744b281da50b.png)
 
 # Candidate Rating System
-This repository contains the code and instructions for identifying credible candidates seeking job openings, as presented by the recruiter. It efficiently filters out incomplete profiles or those lacking adequate skills. Users are assessed based on the color of their Profile Summary Card. A green color signifies a strong and well-rounded profile, while red or light red indicates a profile that may require improvements or corrections.
+This repository contains the code and instructions for identifying credible candidates seeking job openings, as presented by the recruiter. Made purely using HTML, CSS, and JavaScript, it efficiently filters out incomplete profiles or those lacking adequate skills. Users are assessed based on the color of their Profile Summary Card. A green color signifies a strong and well-rounded profile, while red or light red indicates a profile that may require improvements or corrections.
 
 ## Business Understanding
 In every job hiring platform, the profile completion details column typically includes name, email address, profile pictures, social media profiles, and more. This information serves as a benchmark for distinguishing credible profiles. To accomplish this, we propose creating a profile summary card that ranges from Red (indicating a poor profile) to Green (indicating a strong profile) in color.
