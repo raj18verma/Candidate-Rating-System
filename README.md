@@ -8,38 +8,16 @@ In every job hiring platform, the profile completion details column typically in
 The feature I've submitted currently considers key fields such as name, profile picture,job role, location, and their GitHub and LinkedIn IDs. However, we can enhance this by including additional essential fields such as coding profiles, certificates, and an achievements section. Furthermore, the addition of Premium Membership and participation in skill enhancement programs (by Unstop itself) could significantly boost a user's visibility.
 Implementing this approach can streamline the screening process, enabling recruiters to identify top candidates based on their rating (with a higher proportion of green indicating a stronger profile). These highly rated profiles could receive perks such as direct access to HR contacts and recommendations, fostering a more efficient recruitment process.
 
-## Data Scraping
-To collect the necessary data for training our prototype, we will scrape job-related information from UNSTOP. The following columns will be extracted:
+# Elevating the Prototype: Enhancements on the Horizon
 
-Job Title
-Salary Estimate
-Job Description
-Rating
-Company Name
-Location
-Headquarters
-Size
-Founded
-Type of Ownership
-Industry
-Sector
-Revenue
-Competitors
-
-## Feature Engineering
-Once the data is collected, we will perform feature engineering to preprocess and transform the raw data into a suitable format for training our filter model. This step includes:
-
-Handling Missing Data: Deal with missing values in the dataset by either imputing them or removing the corresponding rows/columns.
-Encoding Categorical Variables: Convert categorical variables such as job title, location, industry, and sector into numerical representations using techniques like one-hot encoding or label encoding.
-Feature Scaling: Normalize numerical features, such as salary estimate and company rating, to ensure they have a similar scale and prevent dominance of certain features in the model.
-
-## Machine Learning Techniques:
-To provide personalized job recommendations, we employ the TF-IDF (Term Frequency-Inverse Document Frequency) vectorization technique. The TF-IDF vectorizer from the scikit-learn library to transform job descriptions and user preferences into numerical feature vectors. These vectors capture the importance of each word in the documents, enabling the system to find similar job opportunities based on user preferences. The Nearest Neighbors algorithm is then used to identify the most relevant job recommendations.
-
-skill extractor segment provides functions and utilities to extract skills from a PDF file using the Spacy library and perform text processing and matching operations. These extracted skills can be used for further analysis and processing in the job recommendation system.
-
-## Streamlit Application
-To make the job recommendation system easily accessible and user-friendly, we have developed a Streamlit application. Streamlit provides an intuitive web interface where users can upload their resumes. The application processes the user input, applies the machine learning models, and displays the top-recommended jobs based on the user's preferences and historical data.
+## Real-time Updates
+Ensure that the rating system seamlessly adapts to real-time changes in a candidate's profile, reflecting updated skills, certifications, or project contributions.
+## Candidate Engagement Features
+Include features to engage candidates actively, such as providing personalized recommendations for skill improvement based on their profile assessment.
+## Privacy and Data Security
+Prioritize the protection of candidate data and ensure compliance with relevant privacy regulations by implementing robust security measures.
+## Integration with Applicant Tracking Systems (ATS)
+Seamlessly integrate the rating system with existing ATS platforms used by recruiters to manage job applications and candidate interactions.
 
 
-## Must Go Through the Live Working Demo of this Prototype
+## Must Go Through the Live Working Demo of this Prototype:- https://drive.google.com/file/d/1HpnEFwNmXlip9xzHlsQRJMPKOX1Pl9bu/view?usp=drive_link
