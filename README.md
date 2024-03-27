@@ -5,7 +5,7 @@ This repository contains the code and instructions for identifying credible cand
 
 ## Business Understanding
 In every job hiring platform, the profile completion details column typically includes name, email address, profile pictures, social media profiles, and more. This information serves as a benchmark for distinguishing credible profiles. To accomplish this, we propose creating a profile summary card that ranges from Red (indicating a poor profile) to Green (indicating a strong profile) in color.
-The feature I've submitted currently considers key fields such as name, job role, location, and their GitHub and LinkedIn IDs. However, we can enhance this by including additional essential fields such as coding profiles, certificates, and an achievements section. Furthermore, the addition of Premium Membership and participation in skill enhancement programs (by Unstop itself) could significantly boost a user's visibility.
+The feature I've submitted currently considers key fields such as name, profile picture,job role, location, and their GitHub and LinkedIn IDs. However, we can enhance this by including additional essential fields such as coding profiles, certificates, and an achievements section. Furthermore, the addition of Premium Membership and participation in skill enhancement programs (by Unstop itself) could significantly boost a user's visibility.
 Implementing this approach can streamline the screening process, enabling recruiters to identify top candidates based on their rating (with a higher proportion of green indicating a stronger profile). These highly rated profiles could receive perks such as direct access to HR contacts and recommendations, fostering a more efficient recruitment process.
 
 ## Data Scraping
