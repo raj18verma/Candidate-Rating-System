@@ -1,7 +1,5 @@
 ![jsr2](https://github.com/raj18verma/Job-Filtering-App/blob/main/utilities/resumes/A%20cutting-edge%20%20c5f52a77-b1e6-4bb5-8c97-571ea2b468b2.png)
 
-## Must Go Through the Live Working Demo of this Prototype
-
 # Job Filtering Prototype using Machine Learning
 This repository contains the code and instructions to build a job recommendation system using machine learning. The system is designed to provide personalized job recommendations based on user preferences and historical job data. The data for this project will be scraped from UNSTOP itself (but here we're using GLASSDOOR), and the system is deployed using the a cloud platform.
 
@@ -40,3 +38,6 @@ skill extractor segment provides functions and utilities to extract skills from 
 
 ## Streamlit Application
 To make the job recommendation system easily accessible and user-friendly, we have developed a Streamlit application. Streamlit provides an intuitive web interface where users can upload their resumes. The application processes the user input, applies the machine learning models, and displays the top-recommended jobs based on the user's preferences and historical data.
+
+
+## Must Go Through the Live Working Demo of this Prototype
