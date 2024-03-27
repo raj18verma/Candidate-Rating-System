@@ -1,10 +1,12 @@
 ![jsr2](https://github.com/raj18verma/Candidate-Rating-System/blob/main/A%20modern%20and%20in%207a1eb0ba-15bf-4887-9982-744b281da50b.png)
 
-# Job Filtering Prototype using Machine Learning
-This repository contains the code and instructions to build a job recommendation system using machine learning. The system is designed to provide personalized job recommendations based on user preferences and historical job data. The data for this project will be scraped from UNSTOP itself (but here we're using GLASSDOOR), and the system can be deployed using a cloud platform.
+# Candidate Rating System
+This repository contains the code and instructions for identifying credible candidates seeking job openings, as presented by the recruiter. It efficiently filters out incomplete profiles or those lacking adequate skills. Users are assessed based on the color of their Profile Summary Card. A green color signifies a strong and well-rounded profile, while red or light red indicates a profile that may require improvements or corrections.
 
 ## Business Understanding
-The goal of this feature is to enhance the filter system of UNSTOP platform which can helps users to find relevant job opportunities based on their preferences and historical data. By leveraging machine learning techniques, we can provide personalized recommendations that align with the user's skills, interests, and career goals. The system will take into account various factors such as job title, salary estimate, company rating, location, industry, and more to generate accurate recommendations.
+In every job hiring platform, the profile completion details column typically includes name, email address, profile pictures, social media profiles, and more. This information serves as a benchmark for distinguishing credible profiles. To accomplish this, we propose creating a profile summary card that ranges from Red (indicating a poor profile) to Green (indicating a strong profile) in color.
+The feature I've submitted currently considers key fields such as name, job role, location, and their GitHub and LinkedIn IDs. However, we can enhance this by including additional essential fields such as coding profiles, certificates, and an achievements section. Furthermore, the addition of Premium Membership and participation in skill enhancement programs (by Unstop itself) could significantly boost a user's visibility.
+Implementing this approach can streamline the screening process, enabling recruiters to identify top candidates based on their rating (with a higher proportion of green indicating a stronger profile). These highly rated profiles could receive perks such as direct access to HR contacts and recommendations, fostering a more efficient recruitment process.
 
 ## Data Scraping
 To collect the necessary data for training our prototype, we will scrape job-related information from UNSTOP. The following columns will be extracted:
